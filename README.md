@@ -1,6 +1,6 @@
 # Tabhush
 
-Hit Start from wherever you are. Tabhush figures out what you're working on, quiets every unrelated app and site until you're done, and shows you where your time went. Everything is decided and stored on your computer.
+Hit Start from wherever you are. Tabhush figures out what you're working on, quiets every unrelated app and site until you're done, and shows you where your time went. A desktop app for macOS and Windows; everything is decided and stored on your computer.
 
 This repo holds the installers for Mac and Windows and the update feed installed Windows copies check. The app's source is private.
 
@@ -44,4 +44,3 @@ Windows copies update themselves in the background and never restart during a se
 
 - During a locked session, Tabhush can't be quit, and force-quitting relaunches it. End the session first.
 - Your data stays on your computer: `~/Library/Application Support/Tabhush` on Mac, `%APPDATA%\Tabhush` on Windows.
-
