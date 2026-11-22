@@ -33,6 +33,13 @@ xattr -dr com.apple.quarantine /Applications/Tabhush.app
 
 Mac copies don't update themselves yet. To upgrade, download the new `.dmg` and replace the app in Applications; your sessions and settings stay.
 
+**After an upgrade, allow the permissions again.** macOS ties them to the exact version, so the Accessibility switch for Tabhush can look on while Tabhush still shows the "One permission for a more useful report" card. Turning that switch off and on doesn't help. Instead:
+
+1. In Tabhush, click **Fix it** on that card. It clears only Tabhush's old entries.
+2. In the Accessibility list that opens, switch **Tabhush** on.
+3. Click back into the Tabhush window. The card goes away. If Tabhush closed, open it again from Applications.
+4. The next time you press **Start**, macOS asks again to let Tabhush control your browser. Click **Allow**.
+
 ### Install on Windows
 
 1. Run `Tabhush-Setup-<version>.exe`. It installs for your account only (no admin) and opens Tabhush.
